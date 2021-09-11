@@ -1,229 +1,275 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>TinDog</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Mihir Jadhav | Personal Website</title>
-  <link rel="icon" href="favicon.ico?v=4" />
-</head>
+    <!--Google Fonts-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS Style Sheets -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/2d74150699.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
-  <!-- Header -->
-  <section id="header">
-    <div class="header container">
-      <div class="nav-bar">
-        <div class="brand">
-          <a href="#hero">
-            <h1><span>M</span>ihir <span>J</span>adhav</h1>
-          </a>
-        </div>
-        <div class="nav-list">
-          <div class="hamburger">
-            <div class="bar"></div>
+  <body>
+    <section class="colored-section" id="title">
+      <div class="container-fluid">
+        <!-- Nav Bar -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-#ff4c68">
+          <a class="navbar-brand" href="">tindog</a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cta">Download</a>
+              </li>
+            </ul>
           </div>
-          <ul>
-            <li><a href="#hero" data-after="Home">Home</a></li>
-            <li><a href="#services" data-after="Service">Education</a></li>
-            <li><a href="#projects" data-after="Projects">Tech I use</a></li>
-            <li><a href="#about" data-after="About">Skills</a></li>
-            <li><a href="#contact" data-after="Contact">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Header -->
+        </nav>
 
+        <!-- Title -->
 
-  <!-- Hero Section  -->
-  <section id="hero">
-    <div class="hero container">
-      <div>
-        <table cellspacing="5px">
-          <tr>
-            <td><h1>Hello, <span></span></h1></td>
-          </tr>
-            <tr><td><h1>My Name is <span></span></h1></td></tr>
-            <tr><td><h1>Mihir <span></span></h1></td></tr>
-        </table>
-
-            <table>
-            <tr></tr>
-            <td><img id="hello-size" class="" src="hello.png" alt="hello"></td>
-          </tr>
-        </table>
-
-        <a  class="cta">B.Tech CSE Student at MGMCET, Navi Mumbai</a>
-      </div>
-    </div>
-  </section>
-  <!-- End Hero Section  -->
-
-  <!-- Service Section -->
-  <section id="services">
-    <div class="services container">
-      <div class="service-top">
-      </div>
-      <div class="project-img">
-        <img src="edu.png" alt="img">
-      <div class="service-bottom">
-      </div>
-      </div>
-    </div
-  </section>
-  <!-- End Service Section -->
-
-  <!-- Projects Section -->
-  <section id="projects">
-    <div class="projects container">
-      <div class="projects-header">
-        <h1 class="section-title">Tech<span> I </span>Use</h1>
-      </div>
-      <div class="all-projects">
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Phone</h1>
-            <h2>OnePlus Nord</h2>
-            <p> </p>
-            <p> </p>
-            <p> - Snapdragon 765G 5G Processor</p>
-            <p> </p>
-            <p> - 8GM RAM</p>
-            <p> </p>
-            <p> - 128GB Internal Storage</p>
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="big-heading">Meet new and interesting dogs nearby.</h1>
+            <a
+              target="#"
+              href="https://apps.apple.com/us/app/tindog/id1476161526"
+              type="button"
+              class="btn btn-dark btn-lg download-btn"
+            >
+              <i class="fab fa-apple"></i> Download
+            </a>
+            <a
+              target="#"
+              href="https://play.google.com/store/apps/details?id=com.tindog.tindog&hl=en_IN&gl=US"
+              type="button"
+              class="btn btn-outline-light btn-lg download-btn"
+            >
+              <i class="fab fa-google-play"></i>
+              Download
+            </a>
           </div>
-          <div class="project-img">
-            <img src="Phone-3.jpg" alt="img">
-          </div>
-        </div>
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Laptop</h1>
-            <h2>HP Pavilion x360 Convertible</h2>
-            <p> </p>
-            <p> </p>
-            <p> - Intel(R) Core(TM) i7-8565U CPU @ 4.3GHz</p>
-            <p> </p>
-            <p> - 16GB LP-DDR5 RAM</p>
-            <p> </p>
-            <p> - 512GB NVMe SSD</p>
-            <p> </p>
-            <p> - 2GB Nvidia GeForce MX250 Graphics</p>
-            <p> </p>
-            <p> - Windows 10 Home</p>
-            <p> </p>
-            <p> - MS Office 2019 Home Student Edition</p>
-          </div>
-          <div class="project-img">
-            <img src="Laptop-4.jpg" alt="img">
+          <div class="col-lg-6">
+            <img class="title-image" src="iphone6.png" alt="iphone-mockup" />
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- End Projects Section -->
+    </section>
 
-  <!-- About Section -->
-  <section id="about">
-    <div class="about container">
-      <div class="col-left">
-        <div class="about-img">
-          <img src="img-2.jpg" alt="img">
-        </div>
-      </div>
-      <div class="col-right">
-        <h1 class="section-title">Ski<span>lls</span></h1>
-        <h2> </h2>
-        <h2> </h2>
-        <h2> </h2>
-        <h2> </h2>
-        <h2> </h2>
-        <h2> - Presentation           ⭐⭐⭐⭐⭐</h2>
-        <h2> </h2>
-        <h2> </h2>
-        <h2> </h2>
-        <h2> </h2>
-        <h2> - Team Work            ⭐⭐⭐⭐⭐</h2>
-        <h2> </h2>
-        <h2> </h2>
-        <h2> </h2>
-        <h2> </h2>
-        <h2> - Leadership     ⭐⭐⭐⭐⭐</h2>
-        <h2> </h2>
-        <h2> </h2>
-        <h2> </h2>
-        <h2> </h2>
-        <h2> - Photography              ⭐⭐⭐⭐</h2>
-        <h2> </h2>
-        <h2> </h2>
-        <h2> </h2>
-        <h2> </h2>
-        <h2> - Communication           ⭐⭐⭐⭐</h2>
-      </div>
-    </div>
-  </section>
-  <!-- End About Section -->
+    <!-- Features -->
 
-  <!-- Contact Section -->
-  <section id="contact">
-    <div class="contact container">
-      <div>
-        <h1 class="section-title">Contact <span>info</span></h1>
-      </div>
-      <div class="contact-items">
-        <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
-          <div class="contact-info">
-            <h1>Phone</h1>
-            <h2>(+91) 9028431000</h2>
+    <section class="white-section" id="features">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="feature-box col-lg-4 col-md-12">
+            <i class="fas fa-check-circle icon fa-4x"></i>
+            <h3 class="feature-title">Easy to use.</h3>
+            <p>So easy to use, even your dog could do it.</p>
+          </div>
+
+          <div class="feature-box col-lg-4 col-md-12">
+            <i class="fas fa-bullseye icon fa-4x"></i>
+            <h3 class="feature-title">Elite Clientele</h3>
+            <p>We have all the dogs, the greatest dogs.</p>
+          </div>
+
+          <div class="feature-box col-lg-4 col-md-12">
+            <i class="fas fa-heart icon fa-4x"></i>
+            <h3 class="feature-title">Guaranteed to work.</h3>
+            <p>Find the love of your dog's life or your money back.</p>
           </div>
         </div>
-        <div class="contact-item" >
-          <a class="email" target="_blank" href="mailto:jadhav.mihir5@gmail.com">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
-          <div class="contact-info">
-            <h1>Email</h1>
-            <h2>jadhav.mihir5@gmail.com</h2></a>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+
+    <section class="colored-section" id="testimonials">
+      <div id="testimonial-carousel" class="carousel slide" data-ride="flase">
+        <div class="carousel-inner">
+          <div class="carousel-item active container-fluid">
+            <h2 class="testimonial-text">
+              I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog.
+              Woof.
+            </h2>
+            <img class="testimonial-image" src="dog-img.jpg" alt="dog-profile" />
+            <em>Pebbles, New York</em>
+          </div>
+
+          <div class="carousel-item container-fluid">
+            <h2 class="testimonial-text">
+              My dog used to be so lonely, but with TinDog's help, they've found the love of their
+              life. I think.
+            </h2>
+            <img class="testimonial-image" src="lady-img.jpg" alt="lady-profile" />
+            <em>Beverly, Illinois</em>
           </div>
         </div>
+        <a
+          class="carousel-control-prev"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
         </a>
-        <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
-          <div class="contact-info">
-            <h1>Address</h1>
-            <h2>Khamgaon, Maharashtra, India MH-444303</h2>
+        <a
+          class="carousel-control-next"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Press -->
+
+    <section class="colored-section" id="press">
+      <img class="press-logo" src="techcrunch.png" alt="tc-logo" />
+      <img class="press-logo" src="tnw.png" alt="tnw-logo" />
+      <img class="press-logo" src="bizinsider.png" alt="biz-insider-logo" />
+      <img class="press-logo" src="mashable.png" alt="mashable-logo" />
+    </section>
+
+    <!-- Pricing -->
+
+    <section class="white-section" id="pricing">
+      <h2 class="section-heading">A Plan for Every Dog's Needs</h2>
+      <p>Simple and affordable price plans for your and your dog.</p>
+
+      <div class="row">
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="">Chihuahua</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">Free</h2>
+              <p>5 Matches Per Day</p>
+              <p>10 Messages Per Day</p>
+              <p>Unlimited App Usage</p>
+              <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="">Labrador</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">$49 / mo</h2>
+              <p>50 Matches per day</p>
+              <p>Unlimited Messages</p>
+              <p>Unlimited App Usage</p>
+              <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing-column col-lg-4">
+          <div class="card">
+            <div class="card-header"><h3 class="">Siberian Husky</h3></div>
+            <div class="card-body">
+              <h2 class="price-text">$99 / mo</h2>
+              <p>Unlimited Matches</p>
+              <p>Unlimited Messages</p>
+              <p>Unlimited App Usage</p>
+              <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- End Contact Section -->
+    </section>
 
-  <!-- Footer -->
-  <section id="footer">
-    <div class="footer container">
-      <div class="brand">
-        <h1><span>M</span>ihir <span>J</span>adhav</h1>
-      </div>
-      <h2>Connect with me on Social Media</h2>
-      <div class="social-icon">
-        <div class="social-item">
-          <a target="_blank" href="https://www.facebook.com/jadhav.mihir5"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
-        </div>
-        <div class="social-item">
-          <a target="_blank" href="https://www.instagram.com/mhrjdv"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
-        </div>
-        <div class="social-item">
-          <a target="_blank" href="https://twitter.com/mhrjdv"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png" /></a>
-        </div>
-      </div>
-      <p>Copyright © 2021 Mihir Jadhav. All rights reserved.</p>
-    </div>
-  </section>
-  <!-- End Footer -->
-  <script src="./app.js"></script>
-</body>
+    <!-- Call to Action -->
 
+    <section class="colored-section" id="cta">
+      <div class="container-fluid">
+        <h3 class="cta-h3">Find the True Love of Your Dog's Life Today.</h3>
+        <a
+          target="#"
+          href="https://apps.apple.com/us/app/tindog/id1476161526"
+          type="button"
+          class="btn btn-dark btn-lg cta-download-btn"
+        >
+          <i class="fab fa-apple"></i> Download
+        </a>
+        <a
+          target="#"
+          href="https://play.google.com/store/apps/details?id=com.tindog.tindog&hl=en_IN&gl=US"
+          type="button"
+          class="btn btn-light btn-lg cta-download-btn"
+        >
+          <i class="fab fa-google-play"></i> Download
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="white-section" id="footer">
+      <i class="fab fa-twitter footer-icon"></i>
+      <i class="fab fa-facebook-square footer-icon"></i>
+      <i class="fab fa-instagram footer-icon"></i>
+      <i class="fas fa-envelope footer-icon"></i>
+      <p>© Copyright 2021 tindog</p>
+      <p>
+        Startup Demo Website by
+          <a class="footer-name" target="#" href="https://mhrjdv.github.io/web"
+            >Mihir Jadhav</a
+          >.
+      </p>
+    </footer>
+  </body>
 </html>
